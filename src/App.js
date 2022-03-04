@@ -16,7 +16,6 @@ firebase.initializeApp({
   storageBucket: "spectre-312808.appspot.com",
   messagingSenderId: "753508949887",
   appId: "1:753508949887:web:39ec8c27b2a24d076c844a",
-  measurementId: "G-MPHHKBK013"
 });
 
 const MoonIcon = props => (
@@ -50,8 +49,8 @@ function App() {
   const [darkMode, setDarkMode] = useDarkMode();
 
   const brandLogo = darkMode
-    ? `./public/logo_white.svg`
-    : `./public/logo.svg`;
+    ? `/public/logo_white.svg`
+    : `/public/logo.svg`;
 
   const ThemeIcon = darkMode ? SunIcon : MoonIcon;
 
