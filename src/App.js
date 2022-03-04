@@ -50,8 +50,8 @@ function App() {
   const [darkMode, setDarkMode] = useDarkMode();
 
   const brandLogo = darkMode
-    ? `${process.env.PUBLIC_URL}/logo_white.svg`
-    : `${process.env.PUBLIC_URL}/logo.svg`;
+    ? `./public/logo_white.svg`
+    : `./public/logo.svg`;
 
   const ThemeIcon = darkMode ? SunIcon : MoonIcon;
 
