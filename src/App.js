@@ -10,12 +10,13 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyD6bpqIq3oMdwDHyPUzVTbPnXy1spHd4Sk",
+  authDomain: "spectre-312808.firebaseapp.com",
+  projectId: "spectre-312808",
+  storageBucket: "spectre-312808.appspot.com",
+  messagingSenderId: "753508949887",
+  appId: "1:753508949887:web:39ec8c27b2a24d076c844a",
+  measurementId: "G-MPHHKBK013"
 });
 
 const MoonIcon = props => (
